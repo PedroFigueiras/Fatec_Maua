@@ -1,0 +1,86 @@
+<html>
+
+
+<!-- Pedrão -->
+<!-- Insersão do Titulo ou Cabeçalho browser -->
+	<head>
+		<title>Aula 02 - Program.Web I</title>
+	<head>
+
+
+
+	<!-- Corpo da Pagina-->
+	<body bgcolor="#6959CD" text="white">
+		
+		<center>
+			<b><u><h1>CADASTRO DE CLIENTES</h1></u>
+		</center>
+		
+		<form name="frm_cadastro">
+			<fieldset>
+				<legend>DadosPessoais</legend>
+				
+				
+					Nome do Cliente: <br>
+					<input type= "text" size= "60" maxlength= '60' required="yes" ></input>
+						
+					<p>Digite Sua Senha: <br>
+							<input type="password" size="20" maxlength="20">
+					<p>
+					Digie Sua Idade:
+					<input type="number" min="10" max="100">&nbsp;&nbsp;  <!-- &nbsp;&nbsp; = serve para dar espaço na linha-->
+					
+						Sexo: 
+						<input type="radio" name="sexo">Masculino</input>
+						<input type="radio" name="sexo">Feminino</input>
+					
+					</input>
+					
+					<p>
+						Selecione as Cores Desejadas:<br>
+						
+						<ol>
+							<li><input type="checkbox" name="cor"> Verde
+							<li><input type="checkbox" name="cor"> Amarelo
+							<li><input type="checkbox" name="cor"> Vermelho
+							<li><input type="checkbox" name="cor"> Azul
+							<li><input type="checkbox" name="cor"> Branco
+						</ol>
+					<p>
+					
+					<p>
+						Selecione as Cores Desejadas:<br>
+						
+						<ol>
+							<li><input type="radio" name="cor" onClick="document.bgColor= 'green'"> Verde
+							<li><input type="radio" name="cor" onClick= "document.bgColor = 'orange'"> Laranja
+							<li><input type="radio" name="cor" onClick= "document.bgColor = 'red'"> Vermelho
+							<li><input type="radio" name="cor" onClick= "document.bgColor = 'blue'"> Azul
+							<li><input type="radio" name="cor" onClick= "document.bgColor = 'pink'"> Rosa
+							<li><input type="radio" name="cor" onClick= "document.bgColor = '#6959CD'"> Voltar a Cor Original
+						</ol>
+					<p>
+					
+					<p>Selecione sua Cidade:<br>
+						<select>
+						
+							<option value="nothing">Insira uma cidade</option>
+							<option value="Sa">	Santo André </option>
+							<option value="Sc">	Santo Caetano </option>
+							<option value="Sb">	Santo Bernardo </option>
+							<option value="Ma">	Maua </option>
+							
+						</select>
+					</p>
+					<p> Observações Gerais:<br>
+						<textarea cols="100" rouws="10">Digite aqui</textarea>
+					</p>
+			<fieldset>
+			<p>
+					<center>
+					<input type="submit" value="Enviar">&nbsp;&nbsp;&nbsp;&nbsp;</input>
+					<input type="reset" value="Limpar"></input>
+			</p>
+		</form>
+	</body>
+<html>
