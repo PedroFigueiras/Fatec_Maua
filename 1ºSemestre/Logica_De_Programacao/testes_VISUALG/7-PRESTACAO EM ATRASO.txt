@@ -1,0 +1,26 @@
+Algoritmo "7-Prestacao em Atraso"
+//Autor(a)   : Pedro Henrique Figueira
+//Data atual : 25/02/2022
+Var
+pUm,tempoS,taxaS,total,totalUm:real
+
+
+Inicio
+
+Escreva("Qual o Valor das Prestações: ")
+leia(pUm)
+
+Escreva("Quantos dias em atraso: ")
+leia(tempoS)
+
+Escreva("Qual é a taxa por dia: ")
+leia(taxaS)
+
+total <- pUm * (taxaS/100) * tempoS
+
+totalUm <- total + pUm
+
+
+Escreva("Você tem a pagar",totalUm," reais" )
+
+Fimalgoritmo

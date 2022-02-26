@@ -1,0 +1,21 @@
+Algoritmo "Salario Mes"
+//Autor(a)   : Pedro Henrique Figueira
+//Data atual : 25/02/2022
+Var
+pUm,totalUm,total,mes:real
+
+
+Inicio
+
+mes <- 800
+
+Escreva("Escreva Qual o valor de Vendas no Mês: ")
+leia(pUm)
+
+total <- pUm * 0.15
+
+totalUm <- total + mes + pUm
+
+Escreva("Você recebera",totalUm," esse mês" )
+
+Fimalgoritmo

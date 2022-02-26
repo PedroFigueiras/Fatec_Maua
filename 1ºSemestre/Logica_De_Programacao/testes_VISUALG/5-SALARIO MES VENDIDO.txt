@@ -1,0 +1,21 @@
+Algoritmo "5-Salario Mes Vendido"
+//Autor(a)   : Pedro Henrique Figueira
+//Data atual : 25/02/2022
+Var
+pUm,totalUm,total,mes:real
+
+
+Inicio
+
+mes <- 500
+
+Escreva("Escreva Quantas Vendas de Sistemas foi Vendida esse Mês: ")
+leia(pUm)
+
+total <- pUm * 50
+
+totalUm <- total + mes
+
+Escreva("Você recebera",totalUm," esse mês" )
+
+Fimalgoritmo

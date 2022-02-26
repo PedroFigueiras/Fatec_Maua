@@ -1,0 +1,17 @@
+Algoritmo "Saldo Na Conta"
+//Autor(a)   : Pedro Henrique Figueira
+//Data atual : 25/02/2022
+Var
+pUm,total:real
+
+
+Inicio
+
+Escreva("Escreva Qual o valor de Vendas no Mês: ")
+leia(pUm)
+
+total <- pUm + 800 * 0.15
+
+Escreva("Você tem de saldo positivo",total," na sua conta" )
+
+Fimalgoritmo

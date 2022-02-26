@@ -1,0 +1,27 @@
+Algoritmo "Média"
+//Autor(a)   : Pedro Henrique Figueira
+//Data atual : 25/02/2022
+Var
+pUm,pDois,pTres,totalUm,totalDois,totalTres,total, res:real
+
+
+Inicio
+
+Escreva("Escreva Qual o valor da 1ºProva de 0 a 10 : ")
+leia(pUm)
+Escreva("Escreva Qual o valor da 2ºProva de 0 a 10: ")
+leia(pDois)
+Escreva("Escreva Qual o valor da 3ºProva de 0 a 10: ")
+leia(pTres)
+
+totalUm <- pUm * 2
+totalDois <- pDois * 3
+totalTres <- pTres * 5
+
+total <- totalUm + totalDois + totalTres
+
+res <- total/10
+
+Escreva("A soma de todos as notas, resultou no valor ",res," da sua média" )
+
+Fimalgoritmo

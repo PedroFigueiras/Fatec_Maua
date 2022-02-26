@@ -1,0 +1,25 @@
+Algoritmo "PARCELAS"
+//Autor(a)   : Pedro Henrique Figueira
+//Data atual : 25/02/2022
+Var
+pUm,pDois,pTres,totalUm,total,mes:real
+
+
+Inicio
+
+Escreva("Qual o Valor das Prestações: ")
+leia(pUm)
+
+Escreva("Quantas Prestações são ao total: ")
+leia(pDois)
+
+Escreva("Quantas Prestações foram pagas: ")
+leia(pTres)
+
+total <- pDois - pTres
+
+totalUm <- total * pUm
+
+Escreva("Você tem a pagar",totalUm," reais" )
+
+Fimalgoritmo

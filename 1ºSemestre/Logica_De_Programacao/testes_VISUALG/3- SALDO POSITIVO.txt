@@ -1,0 +1,19 @@
+Algoritmo "3- Saldo Positivo"
+//Autor(a)   : Pedro Henrique Figueira
+//Data atual : 25/02/2022
+Var
+pUm,total:real
+
+
+Inicio
+
+Escreva("Qual o Valor do Cheque: ")
+leia(pUm)
+
+
+total <- pUm + 500
+
+
+Escreva("Você tem",total," reais de saldo positivo " )
+
+Fimalgoritmo
