@@ -4,6 +4,13 @@ mode 90,40
 color 0a
 :inicio
 cls
+echo _/﹋\__
+echo (҂`_´)
+echo -,︻╦╤─ ҉ - - - - - - - - - - - 
+echo _/﹋\_
+echo --------------------------------
+echo         Serviços de Redes
+echo --------------------------------
 echo --------------------------------
 echo [N] NAVEGAR INTERNET
 echo [S] TESTAR CONEXAO DE REDE

@@ -4,6 +4,13 @@ mode 90,40
 color 0a
 :inicio
 cls
+echo _/﹋\__
+echo (҂`_´)
+echo -,︻╦╤─ ҉ - - - - - - - - - - - 
+echo _/﹋\_
+echo --------------------------------
+echo        Menu Principal
+echo --------------------------------
 echo --------------------------------
 echo [P] PACOTE OFFICE
 echo [R] SERVICOS DE REDE
