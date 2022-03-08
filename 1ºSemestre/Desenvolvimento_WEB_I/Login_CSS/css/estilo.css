@@ -177,3 +177,82 @@
 .bprinicipalT{
     background-color: #8075DB;
 } 
+
+
+/*--------- Tela de Contato ------- */
+
+.fundoCN{
+    height: 610px;
+    width: 1000px;
+    position: relative;
+    
+}
+
+.ContD{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    position: absolute;
+    margin-top: 150px;
+}
+
+.formulario p{
+    margin-top: 7px;
+    color: white;
+}
+
+.tamanhoN{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #8075DB;
+    height: 25px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.tamanhoT{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #8075DB;
+    height: 25px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.tamanhoE{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #8075DB;
+    height: 25px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.tamanhoD{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #8075DB;
+    height: 80px;
+    margin-top: 8px;
+}
+
+.btnE{
+    align-items: center;
+    background-color: #5C2AA9;
+    color: white;
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+}
+.btnL{
+    background-color: #5C2AA9;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
