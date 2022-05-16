@@ -1,0 +1,76 @@
+*{margin: 0%;
+
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    background-image: url(../img/Login/fundo_login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top bottom;
+    overflow: hidden;
+    
+}
+.carroRodando{
+
+    margin-top: 496px;
+    width: 421px;
+
+}
+
+
+.divisao_principal{
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.formulario_login{
+
+    margin-left: 321px;
+    margin-bottom: 65px;
+
+}
+
+.formulario_login h3{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23px;
+    font-size: 42px;
+    color: white;
+
+}
+
+.formulario_login p{
+    margin-top: 25px;
+    margin-bottom: 23px;
+    color: white;
+
+}
+
+
+.formulario_login input{
+
+    height: 4vh;
+    width: 48vh;
+    background-color: transparent;
+    border: white solid 1px;
+
+}
+
+.btnentrar{
+
+    margin-left: 142px;
+    margin-top: 40px;
+    width: 100px;
+    height: 27px;
+
+}

@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Exemplo de Caixa de Entrada</title>
+	<meta charset="	UTF-8">
+
+	<script language="JavaScript">
+	
+		function somar() {
+		
+			var cpf = (window.prompt("Digite seu CPF: "));
+			var nome =(window.prompt("Digite seu Nome: "));
+
+			if (confirm("CPF: " + cpf + "\n NOME: " + nome + "\n Confirmados com Sucesso!!!" + "\n Prosseguir para o GOOGLE?")) {
+			
+			
+					window.open("https://www.google.com/");
+			
+			
+			}
+			else {
+			
+				alert ("CPF: " + cpf + "\n Cancelou a Solicitação!!!");
+				return false;
+				
+			
+			
+			}
+		}
+	
+	
+	</script>
+</head>
+
+<body Onload="somar()">
+</body>
+
+</html>

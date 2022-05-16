@@ -1,0 +1,23 @@
+
+<html>
+<head>
+<title>Exemplo de Caixa de Entrada</title>
+<meta charset=" UTF-8"> <script language="JavaScript">
+	function somar() {
+		var n1 = Number(window.prompt("Digite um Valor:"));
+		var soma = (n1 - 1);
+		var soma2 = (n1 + 1);
+//Saida de Dados pela Mensagem
+		alert("Valor do Antecessor é: " + soma);
+		alert("Valor do Sucessor é: " + soma2);
+//Saida de Dados pelo browser
+		document.write("<center>");
+		document.write("<h1>");
+		document.write("<hr>");
+		document.write("Antecessor: " + soma + " = " + n1 + " = " + soma2 + " :Sucessor");
+		document.write("<hr>");
+}
+</script> 
+</head><body Onload="somar()">
+</body></html>
+

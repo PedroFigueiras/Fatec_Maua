@@ -1,0 +1,116 @@
+<html>
+<meta charset=" UTF-8">
+
+<head>
+	<title>EXEMPLO DE ESTRUTURA DE REPETIÇÃO</title>
+
+
+
+<body>
+
+
+	<script language="JavaScript">
+
+		function somar() {
+			var n1 = Number(window.prompt("Digite um Valor Inicial:"));
+			var n2 = Number(window.prompt("Digite um Valor Incremento:"));
+			var n3 = Number(window.prompt("Digite um Valor Final:"));
+			var ordem = (window.prompt("Orientacao Desejada , h Horizontal e v Vertical"));
+
+
+			if (ordem == "h") {
+
+				
+
+					var orientacao = (window.prompt("Ordem Desejada , c Crescente e d Decrescente"));
+
+					if (orientacao == "c") {
+
+						for (var i = n1; i <= n3; i += n2) {
+
+							//Inseri objetos Horizontal
+							document.write("<br>" + i)
+
+
+							//Inseri objetos Vertifal
+							//document.write(i + "-")
+
+
+						}
+
+					}
+					else if (orientacao == "d") {
+
+							for (var i = n1; i >= n3; i -= n2) {
+
+								//Inseri objetos Horizontal
+								document.write("<br>" + i) //+ i = mostrar os valores
+
+
+								//Inseri objetos Vertifal
+								//document.write(i + "-")
+
+
+							}
+						}
+
+			}
+			else if (ordem == "v") {
+
+
+
+					var orientacao = (window.prompt("Ordem Desejada , c Crescente e d Decrescente"));
+
+					if (orientacao == "c") {
+
+
+						for (var i = n1; i <= n3; i += n2) {
+
+							//Inseri objetos Horizontal
+							//document.write("<br>" + i)
+
+
+							//Inseri objetos Vertifal
+							document.write(i + "-")
+
+
+						}
+
+					}
+					else if (orientacao == "d") {
+
+
+						for (var i = n1; i >= n3; i -= n2) {
+
+							//Inseri objetos Horizontal
+							//document.write("<br>" + i) //+ i = mostrar os valores
+
+
+							//Inseri objetos Vertifal
+							document.write(i + "-")
+
+
+						}
+					}
+				}
+		}
+
+
+
+
+
+
+
+	</script>
+
+	<h1>Lista de Números</h1> <br>
+
+
+
+	<button onclick="somar()">Verificar Lista</button>
+
+
+	</head>
+</body>
+
+</html>
