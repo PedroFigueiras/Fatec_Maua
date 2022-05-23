@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.body_login_mercedes{
+    background-color: black;
+    background-image: url(../img/mercedes/fundo_mercedes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top bottom;
+    overflow: hidden;
+    height: 300px;
+    
+}

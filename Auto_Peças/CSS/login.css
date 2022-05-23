@@ -5,7 +5,7 @@
 
 }
 
-body{
+.body_login{
     background-color: black;
     background-image: url(../img/Login/fundo_login.png);
     background-repeat: no-repeat;
@@ -14,9 +14,17 @@ body{
     overflow: hidden;
     
 }
+
+
+.logo{
+
+    width: 305px;
+    margin-top: 48px;
+
+}
 .carroRodando{
 
-    margin-top: 496px;
+    margin-top: 422px;
     width: 421px;
 
 }
@@ -33,8 +41,8 @@ body{
 
 .formulario_login{
 
-    margin-left: 321px;
-    margin-bottom: 65px;
+    margin-left: 231px;
+    margin-bottom: 133px;
 
 }
 
@@ -43,7 +51,7 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 23px;
+    margin-bottom: 50px;
     font-size: 42px;
     color: white;
 
@@ -68,8 +76,7 @@ body{
 
 .btnentrar{
 
-    margin-left: 142px;
-    margin-top: 40px;
+    margin-top: 45px;
     width: 100px;
     height: 27px;
 

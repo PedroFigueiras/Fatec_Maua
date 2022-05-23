@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+
+
+/* ::::::HEADER:::::::: */
+
+.Divisao_header{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.divisao_logo_header{
+    margin-left: 236px;
+}
+
+.img_logo_header{
+    width: 84px; 
+}
+
+.img_casa_header{
+
+    width: 24px;
+    height: 26px;   
+    margin: 13px 14px 0px 0px
+  
+}
+
+.img_sacola_header{
+
+    width: 16px;
+    height: 19px;
+    margin: 2px 17px;
+}
+
+.img_saida_header{
+
+    width: 23px;
+
+  
+}
+
+.divisao_casa_header{
+    margin-right: 200px;
+}
+
+header{
+
+width: 100%;
+height: 50px;
+border: 2px solid gray;
+border-top: none;
+
+}
+
+
+
+/* ::::::HEADER = FIM:::::::: */
+
+
+
+/* ::::::MAIN ::::::: */
+
+
+
+
+
+
+
+/* ::::::MAIN = FIM:::::::: */
+
+/* ::::::ROLAGEM DE SETA:::::::: */
+
+
+
+.divisao_fundo_header{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.barra_central_header_1{
+
+    width: 100px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.barra_central_header_1_1{
+
+    width: 5120px;
+    display: flex;
+
+}
+
+.images img {
+
+    width: 150px;
+
+
+}
+
+#atual{
+    margin-left: 0;
+    transition: all 2s;
+}
+
+.btn_voltar_home{
+
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-top: -5px;
+}
+
+.btn_voltar_home:hover{
+
+
+    transform: scale(1.5);
+
+
+}
+
+.img_next{
+
+    width: 15px;
+
+}
+
+#voltar{
+
+    top: 94%;
+    left: 10%;
+
+}
+
+#next{
+
+    top: 94%;
+    right: 10%;
+
+}
+
+
+
+/* ::::::ROLAGEM DE SETA = FINAL:::::::: */
+
+
+/* ::::::ROLAGEM DE IMAGEM:::::::: */
+
+.rua{
+
+    width: 374px;
+
+}
+
+.fundo{
+
+    background-color: black;
+    width: 100%;
+    height: 506px;
+
+}
+
+.content{
+
+    height: 490px;
+    width: 930px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 9%;
+    left: 18%;
+
+
+}
+
+.navigation{
+
+    position: absolute;
+    bottom: 20px;
+    left: 53%;
+    transform: translate(-50%);
+    display: flex;
+    top: 512px;
+}
+
+.bar{
+
+
+    width: 70px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 6px;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.bar:hover{
+
+    background-color: black;
+
+}
+
+.radios{
+
+    display: none;
+
+}
+
+.slides{
+
+    display: flex;
+    width: 500%;
+    height: 100%;
+
+
+}
+
+.slide{
+
+    width: 20%;
+    transition: .8s;
+
+}
+
+.slide img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#slide1:checked ~ .s1{
+
+    margin-left: 0;
+
+}
+
+#slide2:checked ~ .s1{
+
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1{
+
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1{
+
+    margin-left: -80%;
+}
+
+/* ::::::ROLAGEM DE IMAGEM = FIM:::::::: */
+

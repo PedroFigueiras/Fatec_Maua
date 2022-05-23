@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.body_login_bmw{
+    background-color: black;
+    background-image: url(../img/BMW/fundo_bmw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top bottom;
+    overflow: hidden;
+    height: 300px;
+    
+}
